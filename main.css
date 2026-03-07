@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: Arial;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.search {
+  width: 300px;
+}
+
+.operator {
+  margin-bottom: 30px;
+}
+
+.operator img {
+  height: 40px;
+}
+
+.beeline-box {
+  background: #ffc107;
+  color: white;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.service {
+  margin-bottom: 40px;
+}
+
+.service img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.news img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+}
+
+.card-footer {
+  background: white;
+  font-size: 14px;
+  color: gray;
+  ;
+}
